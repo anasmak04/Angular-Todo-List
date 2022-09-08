@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.form{
+    text-align: center;
+}
+
+
+input{
+    padding: 12px 80px;
+}
+
+button{
+    padding: 12px 30px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+
+button:hover{
+    background-color: royalblue;
+    color: white;
+
+}
+
+.list{
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

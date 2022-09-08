@@ -1,11 +1,15 @@
-<input  type="text" placeholder="ADD new Task" #task>
-<br />
-<br />
-<button (click)="addTask(task.value)">submit</button>
+<h1>basic tdolist with angular and typescript</h1>
 
-<ul *ngFor="let List of list">
-  <div>
-    <li>{{ List.name }}</li>
-    <button (click)="RemoveTask(List.id)">remove</button>
-  </div>
-</ul>
+<div class="form">
+  <input  type="text" placeholder="ADD new Task" #task>
+<button (click)="addTask(task.value)">submit</button>
+</div>
+
+<div class="list">
+  <ul *ngFor="let List of list">
+    <div class="items">
+      <li>{{ List.name }}</li>
+      <button (click)="RemoveTask(List.id)">remove</button>
+    </div>
+  </ul>
+</div>
