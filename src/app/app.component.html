@@ -1,15 +1,1 @@
-<form class="example-form">
-  <mat-form-field class="example-full-width" appearance="fill">
-    <mat-label>ADD A TASK</mat-label>
-    <input matInput   type="text" placeholder="ADD new Task" #task >
-  </mat-form-field>
-<br />
-<br />
-<button (click)="addTask(task.value)">submit</button>
-
-<ul *ngFor="let List of list">
-  <div>
-    <li>{{ List.name }}</li>
-    <button (click)="RemoveTask(List.id)">remove</button>
-  </div>
-</ul>
+<app-todo></app-todo>
