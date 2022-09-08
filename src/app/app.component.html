@@ -1,4 +1,8 @@
-<input type="text" placeholder="ADD new Task" #task />
+<form class="example-form">
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>ADD A TASK</mat-label>
+    <input matInput   type="text" placeholder="ADD new Task" #task >
+  </mat-form-field>
 <br />
 <br />
 <button (click)="addTask(task.value)">submit</button>
