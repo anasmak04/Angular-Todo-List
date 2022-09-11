@@ -9,7 +9,7 @@
     aria-describedby="emailHelp"
     placeholder="Enter a todo"
   />
-  <button type="submit" (click)="addTask(task.value)" class="btn btn-primary">
+  <button type="submit" [(ngModel)]="Item" (click)="addTask(task.value)" class="btn btn-primary">
     Submit
   </button>
 </div>
