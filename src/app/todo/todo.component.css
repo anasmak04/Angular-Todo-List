@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
   text-align: center;
   text-transform: capitalize;
 }
@@ -42,4 +42,26 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+
+
+.form-group {
+  width: 50%;
+  margin-left: 25%;
+  text-align: start;
+}
+
+button {
+  margin: 0 auto;
+  display: block;
+  width: 30%;
+  margin-bottom: 12px;
+}
+
+input {
+  margin: 6px;
+}
+
+h1{
+  text-align: center;
 }

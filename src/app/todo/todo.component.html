@@ -1,8 +1,17 @@
 <h1>basic tdolist with angular and typescript</h1>
 
-<div class="form">
-  <input type="text" placeholder="ADD new Task" #task />
-  <button (click)="addTask(task.value)">submit</button>
+<div class="form-group">
+  <input
+    type="text"
+    #task
+    class="form-control"
+    id="exampleInputEmail1"
+    aria-describedby="emailHelp"
+    placeholder="Enter a todo"
+  />
+  <button type="submit" (click)="addTask(task.value)" class="btn btn-primary">
+    Submit
+  </button>
 </div>
 
 <div class="list">
