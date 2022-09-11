@@ -65,3 +65,13 @@ input {
 h1{
   text-align: center;
 }
+
+.table {
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.btns{
+  display: flex;
+}

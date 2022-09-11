@@ -14,11 +14,16 @@
   </button>
 </div>
 
-<div class="list">
-  <ul *ngFor="let List of list">
-    <div class="items">
-      <li>{{ List.name }}</li>
-      <button (click)="RemoveTask(List.id)">remove</button>
-    </div>
-  </ul>
-</div>
+
+
+
+<table class="table">
+  <tbody>
+    <tr *ngFor="let todo of list">
+      <td>{{ todo.name }}</td>
+      <td class="btns">
+        <button (click)="RemoveTask(todo.id)" type="button" class="btn btn-danger">Delete</button>
+        <button  type="button" class="btn btn-warning">Update</button>
+
+      </td>
+    </tr>
